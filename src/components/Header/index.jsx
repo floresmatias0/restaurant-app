@@ -13,9 +13,11 @@ const Header = ({handleClick, categoryId}) => {
                     </ul>
                 </nav>
             </div>
-            <div className="bg-header-banner bg-cover bg-no-repeat bg-center h-[500px] w-full flex items-center justify-center brightness-50 relative">
+            <div className="bg-header-banner bg-cover bg-no-repeat bg-center h-[500px] w-full flex items-center justify-center relative">
+                <div className="relative h-full w-full backdrop-brightness-50">
+                    <h2 className="font-protest text-4xl font-bold text-white text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 animate-fadeIn">Bienvenidos a My Company</h2>
+                </div>
             </div>
-            <h2 className="font-protest text-4xl font-bold text-white absolute top-1/2 left-1/3 animate-slideIn">Bienvenidos a My Company</h2>
         </header>
     )
 }
