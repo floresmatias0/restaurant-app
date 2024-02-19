@@ -71,17 +71,17 @@ const Footer = () => {
         <footer className="bg-[#784212] w-full">
             <div className="container mx-auto">
                 <div className="py-6 sm:py-8 px-6">
-                    <h3 className="text-white text-xl md:text-lg py-2 sm:py-0 uppercase font-bold">{data_contact?.title}</h3>
+                    <h3 className="text-white text-3xl md:text-lg py-2 sm:py-0 uppercase font-bold font-protest my-2">{data_contact?.title}</h3>
                     <div className="w-full" dangerouslySetInnerHTML={{ __html: data_contact?.map }}></div>
                 </div>
                 <div className="w-full h-auto flex flex-col sm:flex-row gap-4 py-6 sm:py-8 px-6 text-white">
                     <div className="w-full h-full sm:w-1/2 sm:float-left">
                         <div className="my-4">
-                            <h3 className="text-white text-xl md:text-lg py-2 sm:py-0 uppercase font-bold">dirección</h3>
+                            <h3 className="text-white text-3xl md:text-lg py-2 sm:py-0 uppercase font-bold font-protest">dirección</h3>
                             <p>- {data_contact?.address}</p>
                         </div>
                         <div className="my-4">
-                            <h3 className="text-white text-xl md:text-lg py-2 sm:py-0 uppercase font-bold">siguenos</h3>
+                            <h3 className="text-white text-3xl md:text-lg py-2 sm:py-0 uppercase font-bold font-protest">siguenos</h3>
                             <div className="flex gap-2 my-2">
                                 {Object.entries(data_contact?.social_networks).map(([name, value]) => (
                                     <a
@@ -99,7 +99,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="my-4">
-                            <h3 className="text-white text-xl md:text-lg py-2 sm:py-0 uppercase font-bold">contacto</h3>
+                            <h3 className="text-white text-3xl md:text-lg py-2 sm:py-0 uppercase font-bold font-protest">contacto</h3>
                             <p>- {data_contact?.email}</p>
                             <p>- {data_contact?.phone}</p>
                         </div>

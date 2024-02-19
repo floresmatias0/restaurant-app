@@ -25,7 +25,7 @@ const Home = () => {
   return (
     <div className='h-screen w-full flex flex-col'>
       <Header handleClick={handleCategory} categoryId={categoryId}/>
-      <Menu products={filteredProducts} seccionesRef={seccionesRefs}/>
+      <Menu products={filteredProducts} seccionesRef={seccionesRefs} categoryId={categoryId}/>
       <Footer/>
     </div>
   )
