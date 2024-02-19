@@ -24,7 +24,7 @@ export default {
         },
       },
       backgroundImage: {
-        'header-banner': "url('./src/assets/OTPRNLBYHRD2NAHHIJAF3OKWOQ.jpg')",
+        'header-banner': "url('/src/assets/OTPRNLBYHRD2NAHHIJAF3OKWOQ.jpg')",
       }
     },
   },
