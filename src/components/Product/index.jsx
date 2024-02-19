@@ -7,7 +7,7 @@ const Product = ({ name, description, img, price }) => {
                 </div>
                 <div className="w-4/5 sm:w-3/4 h-full float-right relative px-2">
                     <h2 className="text-sm sm:text-md font-bold mt-2">{name}</h2>
-                    <p className="text-xs mt-1">{description}</p>
+                    <p className="text-sm lg:text-xs mt-1">{description}</p>
                     <p className="text-xs sm:text-sm absolute bottom-2 right-2 font-bold">${price}</p>
                 </div>
             </div>
