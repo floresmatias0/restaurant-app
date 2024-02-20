@@ -1,6 +1,6 @@
 const Product = ({ name, description, img, price }) => {
     return (
-        <div className="w-full h-[120px] rounded-xl bg-[#F5E6DA] shadow-md px-2 sm:px-4">
+        <div className="w-full h-[140px] rounded-xl bg-[#F5E6DA] shadow-md px-2 sm:px-4">
             <div className="w-full h-full flex">
                 <div className="w-1/5 sm:w-1/4 float-left flex justify-center items-center">
                     <img src={img} alt={name} width={60} height={60} className="rounded-full min-h-[60px] sm:min-h-[80px] min-w-[60px] sm:min-w-[80px] object-cover"/>
