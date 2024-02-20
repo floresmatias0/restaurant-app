@@ -12,7 +12,7 @@ export default {
       animation: {
         fadeIn: 'fadeIn 1s ease-in-out',
         slideIn: 'slideIn 1s ease-in-out',
-        slideDown: 'slideDown 1s ease-in-out'
+        slideDown: 'slideDown .7s ease-in-out'
       },
       keyframes: {
         fadeIn: {
@@ -24,9 +24,9 @@ export default {
           '100%': { transform: 'translateX(0)' },
         },
         slideDown: {
-          '0%': { transform: 'translateY(-100%)' },
+          '0%': { transform: 'translateY(-75%)' },
           '100%': { transform: 'translateY(0)' },
-        },
+        }
       },
       backgroundImage: {
         'header-banner': "url('/src/assets/OTPRNLBYHRD2NAHHIJAF3OKWOQ.jpg')",
