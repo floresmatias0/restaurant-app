@@ -27,7 +27,7 @@ const Header = ({handleClick, categoryId}) => {
                 </div>
                 <ul className={`${openNav ? 'flex flex-col' : 'hidden'} absolute top-[100px] lg:static animate-slideDown bg-gradient-to-b from-[#784212] lg:from-transparent to-[#5C2F00] lg:to-transparent w-full lg:w-4/5 items-center justify-end lg:flex lg:flex-row py-2 lg:py-0 transition-[height] duration-300 ease-in-out z-10`}>
                     {categories?.map((category, idx) => (
-                        <li onClick={() => handleClick(category)} className={`w-full text-right lg:text-center text-white font-bold text-xl lg:text-lg cursor-pointer hover:text-black font-protest uppercase ${categoryId === category?.id && "underline underline-offset-4"} px-6 lg:px-0 backdrop-blur-sm`} key={idx}>{category?.name}</li>
+                        <li onClick={() => handleClick(category)} className={`w-full text-right lg:text-center text-white font-bold text-xl lg:text-sm cursor-pointer hover:text-black font-protest uppercase ${categoryId === category?.id && "underline underline-offset-4"} px-6 lg:px-0 backdrop-blur-sm`} key={idx}>{category?.name}</li>
                     ))}
                 </ul>
             </nav>
